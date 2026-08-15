@@ -7,7 +7,7 @@ export default function SignaturesPage() {
     <div className="flex min-h-dvh">
       <WorkspaceSidebar />
       <div className="flex min-w-0 flex-1 flex-col">
-        <WorkspaceTopbar breadcrumb="Signatures" title="Signatures" />
+        <WorkspaceTopbar breadcrumb="Acme Inc" title="Signatures" />
         <main className="flex-1">
           <SignaturesOverview />
         </main>
