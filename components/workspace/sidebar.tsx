@@ -21,22 +21,22 @@ const groups = [
     items: [
       { label: 'Overview', href: '/dashboard', icon: LayoutDashboard },
       { label: 'Signature jobs', href: '/jobs', icon: FileSignature },
-      { label: 'Inbox', href: '/dashboard#inbox', icon: Inbox, badge: '4' },
+      { label: 'Inbox', href: '/inbox', icon: Inbox, badge: '4' },
     ],
   },
   {
     label: 'Library',
     items: [
-      { label: 'Templates', href: '/dashboard#templates', icon: FileText },
-      { label: 'Recipients', href: '/dashboard#recipients', icon: Users },
+      { label: 'Signatures', href: '/signatures', icon: FileText },
+      { label: 'Recipients', href: '/recipients', icon: Users },
       { label: 'Audit log', href: '/dashboard#audit', icon: ScrollText },
     ],
   },
   {
     label: 'Configure',
     items: [
-      { label: 'Integrations', href: '/dashboard#integrations', icon: Plug },
-      { label: 'Settings', href: '/dashboard#settings', icon: Settings },
+      { label: 'Integrations', href: '/integrations', icon: Plug },
+      { label: 'Settings', href: '/settings', icon: Settings },
     ],
   },
 ]
